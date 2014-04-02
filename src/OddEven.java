@@ -26,7 +26,7 @@ public class OddEven
 			userGuess = input.nextInt();
 			System.out.printf("The computer number is %d ",computerNum);
 			System.out.println();
-			if (computerNum % 2== 0 && userGuess == 2) 
+			if ( (computerNum % 2== 0 && userGuess == 2)  || (computerNum % 2== 1 && userGuess == 1) )
 			{
 				System.out.println (" correct guess");
 				win++;
